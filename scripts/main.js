@@ -9,9 +9,6 @@ $(document).ready(()=>{
             scrollTop: $("#hello").offset().top
         }, 500)
     });
-    $(window).scroll(()=>{
-        
-    });
     $("#box-a").hide()
         .fadeIn(1000);
 })
