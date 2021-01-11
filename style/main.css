@@ -1,3 +1,6 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* ---------------------------------------------------- */
 .incompatible{
     z-index: 3;
     position: absolute;
@@ -9,24 +12,61 @@
     text-align: left;
     padding: 100px;
 }
+.pnavbar{
+    position: -webkit-sticky;
+    position: sticky;
+    background-color:white;
+    border-radius: 8px;
+    height: 60px;
+}
 .fa-cog{
     animation: animcogrotate 10s infinite;
     -moz-animation: animcogrotate 10s infinite;
 }
-.pnavbar{
-    z-index: 1;
-}
 .nav-opt{
     transform: translateX(80px);
     cursor: pointer;
-}
-.nav-opt hr{
-    height: 80px;
+    height: 80px !important;
 }
 .nav-opt:hover{
     color: aquamarine;
     animation: animhoversm 5s infinite;
     -moz-animation: animhoversm 5s infinite;
+}
+.col{
+    width: 95% !important;
+    height: 75%;
+    /* background-color: yellow; */
+}
+.box-one{
+    background: url("../img/back-one.png") repeat center;
+    border-radius: 40px;
+    height: 350px;
+    animation: animboxone 2s infinite;
+}
+#typing{
+    font-family: 'Pacifico', cursive;
+    font-size: 60pt;
+    color: turquoise;
+}
+.subtitle{
+    font-size: 20pt;
+    display: flex;
+    justify-content: space-around;
+    animation: animsub 5s infinite;
+    animation-delay: 2s;
+}
+.subtitle span{
+    transition: 0.5s;
+    border-radius: 50px;
+}
+.subtitle a{text-decoration: none; color: turquoise;}
+.subtitle a:hover{color: #313131;}
+.subtitle pre{visibility: hidden;}
+.subtitle span:hover{
+    font-size: 30pt;
+    background-color: turquoise;
+    transition: 0.5s;
 }
 
 /* Animations */
@@ -81,6 +121,17 @@
         color: #7c5547;
     }
 }
+@keyframes animsub{
+    from{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
 
 /* Responsive Settings */
 @media only screen and (max-width: 800px){
@@ -109,10 +160,13 @@
 }
 @media only screen and (max-width: 500px){
     .inc-text{
-        transform: translateX(-80px) translateY(110px);
+        transform: translateX(-80px) translateY(95px);
     }
     .fa-mobile-alt{
         visibility: hidden;
         overflow: hidden;
+    }
+    .fa-cog{
+        animation: animmobilering 10s infinite;
     }
 }
