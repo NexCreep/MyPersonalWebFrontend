@@ -1,3 +1,6 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* ---------------------------------------------------- */
 .incompatible{
     z-index: 3;
     position: absolute;
@@ -38,10 +41,11 @@
 .box-one{
     background: url("../img/back-one.png") repeat center;
     border-radius: 40px;
-    height: 250px;
+    height: 350px;
     animation: animboxone 2s infinite;
 }
 #typing{
+    font-family: 'Pacifico', cursive;
     font-size: 60pt;
     color: turquoise;
 }
