@@ -1,0 +1,15 @@
+/* Scrollbar settings */
+::-webkit-scrollbar{
+    width: 10px;
+    transition: 0.5s;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #313131;
+    transition: 0.5s;
+}
+::-webkit-scrollbar-thumb:hover{
+    border-radius: 20px;
+    transition: 0.5s;
+    background-color: turquoise;
+}
