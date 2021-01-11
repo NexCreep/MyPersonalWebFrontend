@@ -4,8 +4,6 @@
     width: 50%;
     height: 50%;
     left: 25%;
-    /* box-shadow: grey 2px 2px 2px;*/
-    background: #90bf3f;
     opacity: 0.9;
     border-radius: 20px;
     text-align: left;
@@ -109,12 +107,9 @@
     }
 
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 500px){
     .inc-text{
         transform: translateX(-80px) translateY(110px);
-    }
-    .incompatible{
-        background-color: white;
     }
     .fa-mobile-alt{
         visibility: hidden;
