@@ -1,0 +1,62 @@
+@keyframes animhoversm{
+    from{
+        transform: translateY(0px) translateX(80px);
+    }
+    50%{
+        transform: translateY(10px) translateX(80px);
+    }
+    to{
+        transform: translateY(0px) translateX(80px);
+    }
+}
+@keyframes animcogrotate{
+    from{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+@keyframes animmobilering{
+    0%{
+        color: #ff0000;
+    }
+    14%{
+        color: #ff7f00;
+    }
+    28%{
+        color: #ffff00;
+    }
+    42%{
+        color: #00ff00;
+    }
+    56%{
+        color: #0000ff;
+    }
+    70%{
+        color: #4b0082;
+    }
+    84%{
+        color: #9400d3;
+    }
+    98%{
+        color: #7c5547;
+    }
+    100%{
+        color: #7c5547;
+    }
+}
+@keyframes animsub{
+    from{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}

@@ -1,7 +1,16 @@
 /* Imports */
+    /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+    /* Resposive desing */
+@import url('resposive.css');
+
+    /* Kayframes Animation */
+@import url('keyframes.css');
+
 /* ---------------------------------------------------- */
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -49,7 +58,7 @@ body{
 .box-one{
     background: url("../img/back-one.png") repeat center;
     border-radius: 40px;
-    height: 350px;
+    height: 500px;
     animation: animboxone 2s infinite;
 }
 #typing{
@@ -60,6 +69,7 @@ body{
 .subtitle{
     font-size: 20pt;
     display: flex;
+    font-family: 'Pacifico', cursive;
     justify-content: space-around;
     animation: animsub 5s infinite;
     animation-delay: 2s;
@@ -82,105 +92,12 @@ body{
     text-align: center; 
     padding: 8px;
 }
-
-/* Animations */
-@keyframes animhoversm{
-    from{
-        transform: translateY(0px) translateX(80px);
-    }
-    50%{
-        transform: translateY(10px) translateX(80px);
-    }
-    to{
-        transform: translateY(0px) translateX(80px);
-    }
+#sysadmin table td{
+    text-align: center;
+    padding: 8px;
 }
-@keyframes animcogrotate{
-    from{
-        transform: rotate(0deg);
-    }
-    50%{
-        transform: rotate(360deg);
-    }
-    to{
-        transform: rotate(0deg);
-    }
-}
-@keyframes animmobilering{
-    0%{
-        color: #ff0000;
-    }
-    14%{
-        color: #ff7f00;
-    }
-    28%{
-        color: #ffff00;
-    }
-    42%{
-        color: #00ff00;
-    }
-    56%{
-        color: #0000ff;
-    }
-    70%{
-        color: #4b0082;
-    }
-    84%{
-        color: #9400d3;
-    }
-    98%{
-        color: #7c5547;
-    }
-    100%{
-        color: #7c5547;
-    }
-}
-@keyframes animsub{
-    from{
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(-10px);
-    }
-    to{
-        transform: translateY(0px);
-    }
-}
-
-/* Responsive Settings */
-@media only screen and (max-width: 800px){
-    .main{
-        visibility: hidden;
-        overflow: hidden;
-    }
-    .incompatible{
-        visibility: visible;
-    }
-    .fa-mobile-alt{
-        transform: translateY(-135px) translateX(52px);
-        animation: animmobilering 20s;
-        animation-iteration-count: infinite;
-    }
-}
-@media only screen and (min-width: 800px){
-    .main{
-        visibility: visible;
-        overflow: visible;
-    }
-    .incompatible{
-        visibility: hidden;
-    }
-
-}
-@media only screen and (max-width: 500px){
-    .inc-text{
-        transform: translateX(-80px) translateY(95px);
-    }
-    .fa-mobile-alt{
-        visibility: hidden;
-        overflow: hidden;
-    }
-    .fa-cog{
-        animation: animmobilering 10s infinite;
-    }
+#netlast-table{
+    position: absolute;
+    left: 150px;
+    transform: scaleX(600px);
 }

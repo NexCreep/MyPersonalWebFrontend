@@ -6,7 +6,7 @@ $(document).ready(()=>{
     });
     $("#ScrollA").click(()=>{
         $("html, body").animate({
-            scrollTop: $("#box-b").offset().top
+            scrollTop: $("#box-b").offset().top - 100
         }, 500)
     });
     $("#box-a").hide()
