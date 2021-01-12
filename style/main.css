@@ -101,3 +101,7 @@ body{
     left: 150px;
     transform: scaleX(600px);
 }
+#ITG table td{
+    text-align: center; 
+    padding: 8px;
+}

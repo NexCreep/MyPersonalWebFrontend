@@ -1,0 +1,22 @@
+/* Imports */
+    /* Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* ------------------------------------------------------------------------------ */
+html{
+    overflow-x: hidden;
+}
+#banner{
+    border-radius: 8px;
+    background-image: url('../img/back-one.png');
+    font-family: 'Pacifico', cursive;
+    color: turquoise;
+    transform: translateY(20px) translateX(20px);
+    padding: 10px;
+}
+@media only screen and (max-width: 800px){
+    #banner{
+        padding: 4px;
+        transform: translateY(5px) translateX(20px);
+        overflow-y: hidden;
+    }
+}
