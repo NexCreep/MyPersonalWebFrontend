@@ -776,7 +776,7 @@ Version 2, June 1991
     
     SOFTWARE.
 
-## Images
+## Imagenes
 <div>Iconos diseñados por <a  href="https://www.flaticon.es/autores/freepik"  title="Freepik">Freepik</a> from <a  href="https://www.flaticon.es/"  title="Flaticon">www.flaticon.es</a></div>
 <br>
 <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
