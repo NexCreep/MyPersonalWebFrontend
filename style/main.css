@@ -88,7 +88,7 @@ body{
     background-color: turquoise;
     transition: 0.5s;
 }
-.precontainer{background-color: turquoise;}
+.precontainer{background-color: #40E0D0;}
 .wave{
     animation: animwave 3s infinite;
     overflow: hidden;
@@ -115,8 +115,6 @@ body{
     text-align: center;
 }
 .bubble{
-    border-radius: 50%;
-    background-color: #212529;
     width: 42px;
     height: 48px;
 }
@@ -141,4 +139,28 @@ body{
 }
 .bubble:hover{
     animation: animbubblehover 1s infinite;
+}
+#side-buttons{
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    display: none;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    transform: translateY(-90px);
+    transition: 0.5s ease;
+    padding: 15px;
+}
+.side-nav-opt{
+    padding: 10px;
+    border-radius: 50%;
+}
+.side-nav-opt:hover{
+    background-color: #212529;
+}
+.side-nav-opt i:hover{
+    color: #40E0D0;
 }

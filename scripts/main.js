@@ -1,15 +1,15 @@
 $(document).ready(()=>{
-    $("#ScrollB").click(()=>{
+    $(".ScrollB").click(()=>{
         $("html, body").animate({
             scrollTop: $("#box-a").offset().top - 200
         }, 500)
     });
-    $("#ScrollA").click(()=>{
+    $(".ScrollA").click(()=>{
         $("html, body").animate({
             scrollTop: $("#box-b").offset().top - 100
         }, 500)
     });
-    $("#ScrollC").click(()=>{
+    $(".ScrollC").click(()=>{
         $("html, body").animate({
             scrollTop: $("#box-c").offset().top - 100
         }, 500)
