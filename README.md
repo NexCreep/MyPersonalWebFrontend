@@ -780,3 +780,6 @@ Version 2, June 1991
 <div>Iconos diseñados por <a  href="https://www.flaticon.es/autores/freepik"  title="Freepik">Freepik</a> from <a  href="https://www.flaticon.es/"  title="Flaticon">www.flaticon.es</a></div>
 <br>
 <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+<br>
+<div>Iconos diseñados por <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" 
+ title="Flaticon">www.flaticon.com</a></div>
