@@ -1,0 +1,167 @@
+/* Imports */
+    /* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+    /* Resposive desing */
+@import url('resposive.css');
+
+    /* Kayframes Animation */
+@import url('keyframes.css');
+
+/* ---------------------------------------------------- */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.incompatible{
+    z-index: 3;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    opacity: 0.9;
+    border-radius: 20px;
+    text-align: left;
+    padding: 100px;
+}
+.fa-cog{
+    animation: animcogrotate 10s infinite;
+    -moz-animation: animcogrotate 10s infinite;
+}
+.pnavbar{
+    position: -webkit-sticky;
+    position: sticky;
+    background-color:white;
+    /* border-radius: 8px; */
+    height: 60px;
+}
+.nav-opt{
+    transform: translateX(80px);
+    cursor: pointer;
+    height: 80px !important;
+}
+.nav-opt:hover{
+    color: aquamarine;
+    animation: animhoversm 5s infinite;
+    -moz-animation: animhoversm 5s infinite;
+}
+.nav-opt span{
+    font-size: 2em;
+    font-weight: bolder;
+}
+.col{
+    width: 95% !important;
+    height: 75%;
+    /* background-color: yellow; */
+}
+.box-one{
+    background: url("../img/back-one.png") repeat center;
+    border-radius: 40px;
+    height: 200%;
+    animation: animboxone 2s infinite;
+}
+#typing{
+    font-family: 'Pacifico', cursive;
+    font-size: 60pt;
+    color: turquoise;
+}
+.subtitle{
+    font-size: 20pt;
+    display: flex;
+    font-family: 'Pacifico', cursive;
+    justify-content: space-around;
+    animation: animsub 5s infinite;
+    animation-delay: 2s;
+    padding: 15px;
+}
+.subtitle span{
+    transition: 0.5s;
+    border-radius: 50px;
+}
+.subtitle a{text-decoration: none; color: turquoise;}
+.subtitle a:hover{color: #313131;}
+.subtitle pre{visibility: hidden;}
+.subtitle span:hover{
+    font-size: 30pt;
+    padding: 4px;
+    background-color: turquoise;
+    transition: 0.5s;
+}
+.precontainer{background-color: #40E0D0;}
+.wave{
+    animation: animwave 3s infinite;
+    overflow: hidden;
+    z-index: 0;
+}
+.box-two table td{
+    text-align: center; 
+    padding: 8px;
+}
+#sysadmin table td{
+    text-align: center;
+    padding: 8px;
+}
+#netlast-table{
+    position: absolute;
+    left: 150px;
+    transform: scaleX(600px);
+}
+#ITG table td{
+    text-align: center; 
+    padding: 8px;
+}
+.box-three{
+    text-align: center;
+}
+.bubble{
+    width: 42px;
+    height: 48px;
+}
+
+
+.blob{
+    border-radius: 50%;
+    box-shadow: 0 0 0 0 rgba(255, 82, 82, 1);
+	transform: scale(1);
+    animation: animblob 2s infinite;
+    width: 62px;
+    height: 62px;
+    cursor: pointer;
+}
+.blob:hover{
+    animation: animblobhover 2s infinite;
+}
+.bubble{
+    width: 92px;
+    height: 92px;
+    transition: 0.5s ease;
+}
+.bubble:hover{
+    animation: animbubblehover 1s infinite;
+}
+#side-buttons{
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    display: flex;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    transform: translateY(-90px);
+    transition: 0.5s ease;
+    padding: 15px;
+}
+.side-nav-opt{
+    padding: 10px;
+    border-radius: 50%;
+}
+.side-nav-opt:hover{
+    background-color: #212529;
+}
+.side-nav-opt i:hover{
+    color: #40E0D0;
+}

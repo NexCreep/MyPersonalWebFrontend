@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <?xml version="1.0" standalone="no"?>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0, user-scalable=0">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SLCF2QNL26"></script>
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -28,7 +27,7 @@
     <title>NexCreep</title>
 </head>
 <body>
-    <div class="container incompatible">
+    <!-- <div class="container incompatible">
         <div class="row">
             <div class="col-sm" style="padding: 20px;">
                 <p class="inc-text">Available soon...</p>
@@ -42,10 +41,10 @@
                 <i class="fas fa-mobile-alt fa-10x"></i>
             </div>
         </div>
-    </div>
+    </div> -->
     </div>
     <div class="container main">
-        <div class="row pnavbar fixed-top">
+        <div class="row pnavbar fixed-top" id="pNavBar">
             <div class="col-sm nav-opt ScrollB" style="transition: 0.25s;">
                 <span>Home&nbsp<i class="fas fa-home"></i></span>
             </div>
@@ -329,7 +328,7 @@ What I can do?
     </div>
     </div>
     </div>
-    <div style="background-color: #313131; color: white; padding-top: 40px;">
+    <div style="background-color: #313131; color: white; padding-top: 40px;" id="bottom">
         <div class="row" style="width: 1180px;">
             <div class="container">
                 <span>
@@ -346,5 +345,6 @@ What I can do?
     <script src="./scripts/main.js"></script>
     <script src="./scripts/typing.js"></script>
     <script src="./scripts/sidebtns.js"></script>
+    <script src="./scripts/responsive.js"></script>
 </body>
 </html>

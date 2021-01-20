@@ -1,7 +1,8 @@
 @media only screen and (max-width: 800px){
     .main{
-        visibility: hidden;
-        overflow: hidden;
+        visibility: visible;
+        overflow: visible;
+        overflow-x: hidden;
     }
     .incompatible{
         visibility: visible;
