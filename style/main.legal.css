@@ -2,9 +2,7 @@
     /* Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 /* ------------------------------------------------------------------------------ */
-html{
-    overflow-x: hidden;
-}
+
 #banner{
     border-radius: 8px;
     background-image: url('../img/back-one.png');

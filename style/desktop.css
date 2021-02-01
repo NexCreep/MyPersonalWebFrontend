@@ -67,6 +67,9 @@ body{
     font-size: 60pt;
     color: turquoise;
 }
+#midTySub{
+    height: 150px;
+}
 .subtitle{
     font-size: 20pt;
     display: flex;
@@ -162,6 +165,6 @@ body{
 .side-nav-opt:hover{
     background-color: #212529;
 }
-.side-nav-opt i:hover{
+.side-nav-opt:hover i{
     color: #40E0D0;
 }

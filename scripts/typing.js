@@ -1,5 +1,5 @@
 if (window.matchMedia("(min-width: 800px)").matches){
-    var totalStrings = ["NexCreep", "Raul Lopez-Bravo"];
+    var totalStrings = ["Raul Lopez-Bravo", "NexCreep"];
     var typeIt = new TypeIt("#typing", { speed: 70, loop: true, waitUntilVisible: true });
 
     totalStrings.forEach(function (str) {
@@ -10,5 +10,5 @@ if (window.matchMedia("(min-width: 800px)").matches){
 
     typeIt.go();
 }else{
-    document.getElementById('typing').innerHTML = 'NexCreep'
+    document.getElementById('typing').innerHTML = 'Raul Lopez'
 }
